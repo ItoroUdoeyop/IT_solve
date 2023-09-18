@@ -662,8 +662,8 @@ footer{
     .right{
         width: 60%;
         margin: auto;
+        margin-bottom: 1rem;
         position: relative;
-        top: -4rem;
     }
     .head1 .right img{
         object-fit: contain;
