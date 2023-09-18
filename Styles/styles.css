@@ -170,7 +170,7 @@ ul li a{
 .head3{
     background-color: #f4f7fc;
     padding-top: 3rem;
-    height: 190vh;
+    padding-bottom: 2rem;
 }
 .headin h4{
     color: #2513D1;
@@ -586,6 +586,7 @@ footer{
     width: 100%;
     background-color: #1E1666;
     color: #ffffff;
+    padding-bottom: 1rem;
 }
 .footlogo{
     width: 100%;
@@ -603,7 +604,6 @@ footer{
 }
 .details img{
     background-color: #2513D1;
-    padding: 6.4px;
 }
 .details h2{
     font-size: 20px;
@@ -645,4 +645,153 @@ footer{
     justify-content: space-between;
     margin: auto;
     align-items: center;
+}
+@media screen and (max-width: 990px) {
+    .logo{
+        margin-top: 0;
+        padding-top: 0;
+        top: 1rem;
+        left: 4rem;
+    }
+    .navbar{
+        display: none;
+    }
+    .head1{
+        flex-direction: column-reverse;
+    }
+    .right{
+        width: 60%;
+        margin: auto;
+        position: relative;
+        top: -4rem;
+    }
+    .head1 .right img{
+        object-fit: contain;
+        height: 50vh;
+        width: 110%;
+    }
+    .left h2{
+        margin: 0;
+    }
+    .buttons{
+        display: flex;
+        flex-direction: column;
+    }
+    .buttons button{
+        width: 45vw;
+        height: 4vh;
+        font-size: medium;
+        margin-bottom: 4%;
+    }
+    .carddd{
+        flex-direction: column;
+        padding-left: 1rem;
+    }
+    .left_img{
+        width: 100%;
+    }
+    .right_list{
+        width: 100%;
+    }
+    .button button{
+        width: 35vw;
+        height: 1.2rem;
+    }
+    .headin h1{
+        padding: 0 6rem;
+    }
+    .write p{
+        margin: 2rem 0;
+    }
+    .containss{
+        flex-direction: column;
+    }
+    .card{
+        margin-bottom: 2rem;
+        width: 100%;
+    }
+    .lineup{
+        flex-direction: column;
+    }
+    .lineup2{
+        padding: 5rem 1.5rem;        
+    }
+    .contain{
+        flex-direction: column;
+    }
+    .lefft{
+        width: 100%;
+    }
+    .rigght{
+        width: 100%;
+    }
+    .writee{
+        margin-right: 5%;
+        margin-left: 5%;
+        margin-bottom: 5rem;
+    }
+    .split{
+        flex-direction: column;
+    }
+    .irregular{
+        width: 90%;
+    }
+    .head7{
+        flex-direction: column;
+    }
+    .lefty p{
+        font-size: 15px;
+        margin: 2rem;
+    }
+    input{
+        width: 90%;
+    }
+    textarea{
+        width: 90%;
+    }
+    .buttt{
+        width: 45%;
+    }
+    .head8{
+        flex-direction: column;
+    }
+    .rightt{
+        width: 25%;
+        height: 2rem;
+    }
+    .head1, .head2, .head3, .head4, .head5, .head6, .head7, .head8{
+        overflow: hidden;
+    }
+    .flexie{
+        flex-direction: column;
+        width: 100%;
+    }
+    .cardd{
+        width: 100%;
+    }
+    .footlogo img{
+        width: 40%;
+    }
+    .three{
+        flex-direction: column;
+    }
+    .details{
+        width: 100%;
+        margin-bottom: 4rem;
+    }
+    .socials{
+        width: 40%;
+    }
+    .fb{
+        width: 8%;
+    }
+    .tw{
+        width: 12%;
+    }
+    .ig{
+        width: 20%;
+    }
+    .bs{
+        width: 10%;
+    }
 }
